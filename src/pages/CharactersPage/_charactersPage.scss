@@ -1,0 +1,43 @@
+.characters-page {
+  padding-top: 1rem;
+  background-image: url('https://cdn.shapechef.com/blog/stars.png');
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+
+    .card {
+      max-width: 400px;
+      border: 2px solid teal;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+      }
+
+      .info-box-characters {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        p {
+          margin: 0 0 0 10px;
+        }
+
+        h3 {
+          margin: 0 0 10px 0;
+          align-self: center;
+        }
+      }
+    }
+  }
+}

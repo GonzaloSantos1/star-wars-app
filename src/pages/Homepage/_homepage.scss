@@ -1,0 +1,16 @@
+.homepage {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .card {
+      max-width: 400px;
+
+      img {
+        width: 300px;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.movies-page {
+  background-image: url('https://cdn.shapechef.com/blog/stars.png');
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+
+    .card {
+      display: flex;
+      border: 2px solid teal;
+      background-color: white;
+
+      img {
+        width: 15rem;
+      }
+
+      .info-box-movies {
+        margin: 0 15px 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+}

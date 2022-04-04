@@ -1,0 +1,22 @@
+.logout-btn {
+  width: 100px;
+  height: 35px;
+  border-style: none;
+  background-image: linear-gradient(to right, #4b6cb7 0%, #182848 51%, #4b6cb7 100%);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  align-self: center;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+}
